@@ -1,0 +1,23 @@
+.nav {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00c7de;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav:hover {
+    background-color: #077cb2;
+    transform: scale(1.03);
+}
+
+.nav:active {
+    transform: scale(0.98);
+}
